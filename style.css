@@ -1,0 +1,83 @@
+:root {
+    --index: calc(1vw + 1vh);
+  }
+  
+  body {
+    background-color: #ECF2FF;
+
+  }
+  
+  .sec1 {
+    position: relative;
+    left: 2vw;
+  }
+  
+  .sec2 {
+    position: relative;
+    top: 35vh;
+    left: 38vw;
+  }
+  
+  .sec3 {
+    position: relative;
+    top: 70vh;
+    left: 2vw;
+  }
+  
+  .logos {
+    position: absolute;
+    top: 250vh;
+    width: 100%;
+
+  }
+  
+  .sec4 {
+    position: relative;
+    top: 110vh;
+    left: 30vw;
+  }
+  
+  .sec5 {
+    position: relative;
+    top: 200vh;
+    left: 2vw;
+  }
+  
+  .sec6 {
+    position: relative;
+    top: 200vh;
+    left: 70vw;
+  }
+  
+  .sec7 {
+    position: relative;
+    top: 230vh;
+  }
+  .sec8 {
+    position: relative;
+    top: 230vh;
+    left: 49vw;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+  }
+
+  .content{
+    height: 500vh;
+  }
+.text_wo{
+    position: absolute;
+    width: 60vw;
+    left: 25vw;
+
+    margin-top: 205vh;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    line-height: 17vh;
+
+    color: #000000;
+}

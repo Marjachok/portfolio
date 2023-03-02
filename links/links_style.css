@@ -1,0 +1,21 @@
+.fact4{
+    position: absolute;
+    width: 40vw;
+    height: 33vh;
+    background: #FFF4D2 ;
+    border-radius: 10vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.text2{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 12vh;
+    color: #000000;
+    left: 5vw;
+    right: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+}

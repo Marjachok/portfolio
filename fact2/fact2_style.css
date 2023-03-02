@@ -1,0 +1,24 @@
+:root{
+    --index:calc(1vw+1vh);
+}
+.fact2{
+    position: absolute;
+    width: 60vw;
+    height: 33vh;
+    background: linear-gradient(296.35deg, rgba(219, 185, 255, 0.52) 14.66%, rgba(219, 185, 255, 0.644756) 60.13%, rgba(219, 185, 255, 0) 60.13%, rgba(141, 248, 255, 0.55) 60.14%);
+    border-radius: 10vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);}
+.text1{
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 12vh;
+    color: #000000;
+
+    margin-top: 5vh;
+    width: 80%;
+}
+.span2{
+    color:white;
+}

@@ -1,0 +1,98 @@
+.work1{
+    position: absolute;
+    width: 47vw;
+    height: 70vh;
+    background: #E3DFFD;
+    border-radius: 5vw;
+    left: 2vw;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
+}
+.w_name{
+    position: absolute;
+    width: 22vw;
+    height: 10vh;
+    background: #FFD2E2;
+    border-radius: 100px;
+    top: 5vh;
+    left: 12.5vw;
+}
+.name{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    color: #000000;
+    top: -5vh;
+    left: 2vw;
+    width: 20vw;
+}
+.description{
+    top: 12vh;
+    left: 3vw;
+    position: absolute;
+    width: 43vw;
+    height: 70vh;
+    line-height: 7vh;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: #000000;
+}
+.button{
+    left: 3.5vw;
+    top: 55vh;
+    position: absolute;
+    width: 40vw;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    z-index: 1;
+}
+.but_link{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #000000;
+    top: -8.5vh;
+    left: 15vw;
+}
+.ellipse11{
+    border-radius: 360%;
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 3vw;
+    top: 5vh;
+    
+    background: #FFF4D2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ellipse22{
+    border-radius: 360%;
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 6vw;
+    top: 5vh;
+
+    background: #FFF4D2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ellipse33{
+    border-radius: 360%;
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 9vw;
+    top: 5vh;
+    background: #FFF4D2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 360%;
+    -moz-border-radius: 360%;
+    -ms-border-radius: 360%;
+    -o-border-radius: 360%;
+}

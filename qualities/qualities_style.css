@@ -1,0 +1,97 @@
+.qual{
+    width: 27vw;
+    height: 83vh;
+    background: #E5D1FA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5vw;
+    top: 30vw;
+}
+.text_qual{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.3vw;
+    color: #000000;
+    left: 5vw;
+}
+.q1{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 13vh;
+    left: 3vw;
+}
+.q2{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 21vh;
+    left: 3vw;
+}
+.q3{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 29vh;
+    left: 3vw;
+}
+.q4{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 37vh;
+    left: 3vw;
+}
+.q5{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 45vh;
+    left: 3vw;
+}
+.q6{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 53vh;
+    left: 3vw;
+}
+.q7{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 61vh;
+    left: 3vw;
+}
+.q8{
+    position: absolute;
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    top: 69vh;
+    left: 3vw;
+}
