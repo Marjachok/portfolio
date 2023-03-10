@@ -1,7 +1,170 @@
 :root {
     --index: calc(1vw + 1vh);
   }
+html{
+  overflow-x: hidden;
+}
+@media only screen and (max-width:767px){
+  .hero{
+    position: relative;
+  }
+  body {
+    height: 165vh;
+    margin: 0;
+    background-color: #ECF2FF;
+    overflow-x: hidden;
+  }
   
+  .sec1 {
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+  }
+  
+  .sec2 {
+    position: relative;
+    top: 18vh;
+    left: 38vw;
+  }
+  
+  .sec3 {
+    position: relative;
+    top: 32vh;
+    left: 2vw;
+  }
+  
+  .logos {
+    position: relative;
+    top: 20vh;
+    width: 100%;
+
+  }
+  
+  .sec4 {
+    position: relative;
+    top: 46vh;
+    left: 30vw;
+  }
+  
+  .sec5 {
+    position: relative;
+    top: 70vh;
+    left: 2vw;
+  }
+  
+  .sec6 {
+    position: relative;
+    top: 70vh;
+    left: 70vw;
+  }
+  
+  .sec7 {
+    position: relative;
+    top: 70vh;
+    padding-bottom: 3vhx;
+  }
+  .sec8 {
+    position: relative;
+    top: 70vh;
+    left: 49vw;
+  }
+
+.text_wo{
+    position: relative;
+    width: 60vw;
+    left: 5vw;
+    top:70vh;
+
+    font-family: Courier;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    color: #000000;
+}
+}
+@media only screen and (min-width:768px){
+  .hero{
+    position: relative;
+  }
+  body {
+    height: 170vh;
+    margin: 0;
+    background-color: #ECF2FF;
+    overflow-x: hidden;
+  }
+  
+  .sec1 {
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+  }
+  
+  .sec2 {
+    position: relative;
+    top: 18vh;
+    left: 38vw;
+  }
+  
+  .sec3 {
+    position: relative;
+    top: 32vh;
+    left: 2vw;
+  }
+  
+  .logos {
+    position: relative;
+    top: 14vh;
+    width: 100%;
+
+  }
+  
+  .sec4 {
+    position: relative;
+    top: 46vh;
+    left: 30vw;
+  }
+  
+  .sec5 {
+    position: relative;
+    top: 70vh;
+    left: 2vw;
+  }
+  
+  .sec6 {
+    position: relative;
+    top: 70vh;
+    left: 70vw;
+  }
+  
+  .sec7 {
+    position: relative;
+    top: 70vh;
+    padding-bottom: 3vhx;
+  }
+  .sec8 {
+    position: relative;
+    top: 70vh;
+    left: 49vw;
+  }
+
+.text_wo{
+    position: relative;
+    width: 60vw;
+    left: 5vw;
+    top:70vh;
+
+    font-family: Courier;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    color: #000000;
+
+}
+
+}
+@media only screen and (min-width:992px){
   body {
     background-color: #ECF2FF;
     overflow-x: hidden;
@@ -14,13 +177,13 @@
   
   .sec2 {
     position: relative;
-    top: 35vh;
+    top: 38.5vh;
     left: 38vw;
   }
   
   .sec3 {
     position: relative;
-    top: 70vh;
+    top: 73vh;
     left: 2vw;
   }
   
@@ -51,11 +214,11 @@
   
   .sec7 {
     position: relative;
-    top: 230vh;
+    top: 190vh;
   }
   .sec8 {
     position: relative;
-    top: 230vh;
+    top: 190vh;
     left: 49vw;
   }
   
@@ -69,11 +232,11 @@
     height: 500vh;
   }
 .text_wo{
-    position: absolute;
+    position: relative;
     width: 60vw;
     left: 25vw;
 
-    margin-top: 205vh;
+    top: 190vh;
     font-family: 'Days One';
     font-style: normal;
     font-weight: 400;
@@ -81,4 +244,5 @@
     line-height: 17vh;
 
     color: #000000;
+}
 }

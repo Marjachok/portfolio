@@ -1,6 +1,49 @@
 :root{
     --index:calc(1vw+1vh);
 }
+@media only screen and (max-width:767px){
+    .fact1{
+        position: absolute;
+        width: 60vw;
+        height: 10vh;
+        background: linear-gradient(112.12deg, rgba(219, 185, 255, 0.52) 2.89%, rgba(219, 185, 255, 0.644756) 64.44%, rgba(219, 185, 255, 0) 64.44%, rgba(141, 248, 255, 0.55) 64.45%);
+        border-radius: 10vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .text1{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 4vw;
+        line-height: 3vh;
+        left: 8vw;
+        width: 80%;
+
+    }
+}
+@media only screen and (min-width:768px){
+    .fact1{
+        position: absolute;
+        width: 60vw;
+        height: 10vh;
+        background: linear-gradient(112.12deg, rgba(219, 185, 255, 0.52) 2.89%, rgba(219, 185, 255, 0.644756) 64.44%, rgba(219, 185, 255, 0) 64.44%, rgba(141, 248, 255, 0.55) 64.45%);
+        border-radius: 10vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .text1{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 4vw;
+        line-height: 3vh;
+        left: 8vw;
+        width: 80%;
+
+    }
+}
+@media only screen and (min-width:992px){
 .fact1{
     position: absolute;
     width: 60vw;
@@ -19,4 +62,5 @@
     left: 8vw;
     margin-top: 5vh;
     width: 80%;
+}
 }

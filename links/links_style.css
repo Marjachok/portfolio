@@ -1,3 +1,54 @@
+@media only screen and (max-width:767px){
+    .fact4{
+        position: absolute;
+        width: 40vw;
+        height: 10vh;
+        background: #FFF4D2 ;
+        border-radius: 10vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .text2{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 3vh;
+        color: #000000;
+        left: 5vw;
+        right: 5vw;
+        margin-top:0.5vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .fact4{
+        position: absolute;
+        width: 40vw;
+        height: 10vh;
+        background: #FFF4D2 ;
+        border-radius: 10vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .text2{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 3vh;
+        color: #000000;
+        left: 5vw;
+        right: 5vw;
+        margin-top:0.5vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px){
 .fact4{
     position: absolute;
     width: 40vw;
@@ -18,4 +69,5 @@
     right: 5vw;
     margin-top: 5vh;
     text-align: center;
+}
 }

@@ -1,3 +1,264 @@
+@media only screen and (max-width:767px){
+    .skil{
+        position: absolute;
+        width: 60.8vw;
+        height: 20vh;
+        background: #E5D1FA;
+        border-radius: 5vw;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
+    }
+    .text_skill{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vw;
+        left: 5vw;
+        color: #000000;
+    }
+    .skills1{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 1.6vw;
+        top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills2{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 21.6vw;
+        top: 5vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills3{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        right: 2vw;
+        top: 5vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills4{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 12vw;
+        top: 12vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills5{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        right: 12vw;
+        top: 12vh;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .html{
+
+        top: -0.2vh;
+        position: absolute;
+        left: 5.5vw;
+        width: 9vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+        
+    }
+    .css{
+        top: -0.2vh;
+        position: absolute;
+        left: 6.5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .JS{
+        top: -0.2vh;
+        position: absolute;
+        left: 1.8vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .figma{
+        top: -0.2vh;
+        position: absolute;
+        left: 5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .TS{
+        top: -0.2vh;
+        position: absolute;
+        left: 1.5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+}
+@media only screen and (min-width:768px){
+    .skil{
+        position: absolute;
+        width: 60.8vw;
+        height: 20vh;
+        background: #E5D1FA;
+        border-radius: 5vw;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
+    }
+    .text_skill{
+        position: absolute;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vw;
+        left: 5vw;
+        color: #000000;
+    }
+    .skills1{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 1.6vw;
+        top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills2{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 21.6vw;
+        top: 5vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills3{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        right: 2vw;
+        top: 5vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills4{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        left: 12vw;
+        top: 12vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .skills5{
+        position: absolute;
+        width: 17.6vw;
+        height: 3vh;
+        background: #FFF4D2;
+        border-radius: 100px;
+        right: 12vw;
+        top: 12vh;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .html{
+
+        top: -1vh;
+        position: absolute;
+        left: 5.5vw;
+        width: 9vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+        
+    }
+    .css{
+        top: -1vh;
+        position: absolute;
+        left: 6.5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .JS{
+        top: -1vh;
+        position: absolute;
+        left: 1.8vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .figma{
+        top: -1vh;
+        position: absolute;
+        left: 5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+    .TS{
+        top: -1vh;
+        position: absolute;
+        left: 1.5vw;
+        font-family: Courier;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: #000000;
+    }
+}
+@media only screen and (min-width:992px){
 .skil{
     position: absolute;
     width: 60.8vw;
@@ -119,4 +380,5 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 400;
     font-size: 2.5vw;
     color: #000000;
+}
 }
