@@ -4,7 +4,7 @@
   
   body {
     background-color: #ECF2FF;
-
+    overflow-x: hidden;
   }
   
   .sec1 {
@@ -60,6 +60,7 @@
   }
   
   .hero {
+
     position: relative;
     height: 100vh;
   }

@@ -1,5 +1,5 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
-
+if (ScrollTrigger.isTouch !== 1) {
 ScrollSmoother.create({
     wrapper: '.wrapper',
     content: '.content',
@@ -20,7 +20,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
 
 
 
- gsap.fromTo(".sec1", { opacity: 0, x: -50 }, {
+ gsap.fromTo(".sec1", { opacity: 0, x: -150 }, {
       opacity: 1, x: 0,
       scrollTrigger: {
        trigger: '.sec1',
@@ -30,7 +30,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
      }
     })
 
-    gsap.fromTo(".sec3", { opacity: 0, x: -50 }, {
+    gsap.fromTo(".sec3", { opacity: 0, x: -150 }, {
         opacity: 1, x: 0,
         scrollTrigger: {
          trigger: '.sec3',
@@ -44,7 +44,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
 
 
 
-    gsap.fromTo('.sec2', { opacity: 0, x: 50 }, {
+    gsap.fromTo('.sec2', { opacity: 0, x: 150 }, {
         opacity: 1, x: 0,
         scrollTrigger: {
             trigger: ".sec2",
@@ -54,7 +54,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
         }
     })
 
-    gsap.fromTo('.sec4', { opacity: 0, x: 50 }, {
+    gsap.fromTo('.sec4', { opacity: 0, x: 150 }, {
         opacity: 1, x: 0,
         scrollTrigger: {
             trigger: ".sec4",
@@ -64,7 +64,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
         }
     })
 
-    gsap.fromTo('.sec7', { opacity: 0, x: -50 }, {
+    gsap.fromTo('.sec7', { opacity: 0, x: -150 }, {
         opacity: 1, x: 0,
         scrollTrigger: {
             trigger: ".sec7",
@@ -75,7 +75,7 @@ gsap.fromTo(".hero",{ opacity:1 },{
     })
 
 
-    gsap.fromTo('.sec8', { opacity: 0, x: 50 }, {
+    gsap.fromTo('.sec8', { opacity: 0, x: 150 }, {
         opacity: 1, x: 0,
         scrollTrigger: {
             trigger: ".sec8",
@@ -84,3 +84,4 @@ gsap.fromTo(".hero",{ opacity:1 },{
             scrub: true
         }
     })
+}
